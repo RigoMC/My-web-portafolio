@@ -1,0 +1,5 @@
+<div class="grid grid-cols-5 gap-4 p-10">
+    @for(project of projects; track project){
+        <project-card [project]="project"></project-card>
+    }
+</div>
